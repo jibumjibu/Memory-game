@@ -18,7 +18,7 @@ function revealNumber(num) {
   }
 }
 
-function revealAllNumbers() {
+/* function revealAllNumbers() {
   if (gamePaused) return; // Prevent revealing numbers if the game is paused
 
   const boxes = document.querySelectorAll('.gbox');
@@ -37,7 +37,7 @@ function revealAllNumbers() {
   function hideAllNumbers() {
     const boxes = document.querySelectorAll('.gbox');
     boxes.forEach(gbox => gbox.classList.add('hidden')); // Adds the 'hidden' class back to hide all numbers
-  }
+  } */
 
 
 function resetBoxes(shouldShuffle) {
